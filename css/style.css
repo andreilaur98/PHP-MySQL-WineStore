@@ -1,0 +1,154 @@
+a:link{/*colors all links in one color & eluminate the underline option*/
+	text-decoration: none;
+	color:#40b0ff;
+}
+@font-face {/*to use a custom font installed locally*/
+	font-family: 'myFont';
+	src: url('fonts/GauntletClassic_TB.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;	
+}
+
+h1, h2, h3 ,h4, h5, h6{
+		font-family: "Gauntlet classic",MyFont, "Times New Roman", Verdana, sans-serif;
+}
+
+body{
+	background: url('pattern_01.jpg') repeat;
+}
+/*##########################################################*/
+
+header{
+	height: 100px;
+	border-top:3px solid #f4f4f4;
+	padding-top:40px; 
+
+}
+header h1{
+	font-size: 60px;
+}
+header h1 span{
+	color:#40b0ff;
+}
+header img{
+	padding:15px 0 0 20px;
+}
+
+/*##########################################################*/
+
+nav{
+	font-family: "Gauntlet classic",MyFont, "Times New Roman", Verdana, sans-serif;
+	height: 70px;
+	background-color: #f4f4f4;
+	margin-bottom: 10px;
+	border-top: 2px solid #40b0ff;
+}
+nav ul{
+	list-style-type: none;
+	height: 70px;
+}
+nav ul li{
+	display: inline-block;
+	padding: 22px 20px;
+	border-right: 1px solid #ededed;
+}
+nav ul li a{
+	font-size:18px;	
+	color: #000000 !important;
+}
+nav ul li.active{
+	background-color: #ededed;
+}
+nav ul li.active a{
+	color: #40b0ff !important;
+}
+nav ul li:hover{
+	background-color: #ededed;
+}
+/*##########################################################*/
+.nivo-controlNav{
+	display: none;
+}
+
+/*##########################################################*/
+/*the three paragraphs css styles*/
+#three_parags {
+	padding:40px 0;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 5px solid #ededed;
+	border-bottom: 5px solid #ededed;
+	background-color:#f4f4f4;
+}
+
+.one_parag h2 {
+	font-size: 30px;
+	color: #515151;
+	border-bottom: 1px solid #ededed ;
+	padding-bottom: 10px;
+
+}
+
+.one_parag p{
+	border-top: 1px solid #ffffff ;
+	font-size: 14px;
+	color: #808080;
+	padding: 20px 0;
+	line-height:21px;
+}
+a.p_Button{
+	display: block;
+	height:26px;
+	width:70px;
+	background-color:#40b0ff;
+	padding:8px 15px; 
+	font-size:14px;
+	color:white; 
+	margin-bottom: 15px;
+	text-align: center;
+}
+.p_Button a{
+
+}
+
+/*#########################################################*/
+#recents{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+#recents h2{
+	font-size: 30px;
+	color: #515151;
+	border-bottom: 1px solid #ededed ;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+#from_blog a{
+	font-size: 18px;
+}
+#from_blog p{
+	font-size: 12px;
+	color: #808080;
+	margin: 10px 0  30px 0;
+}
+#from_portfolio p{
+	font-size: 12px;
+	margin-top: 5px;
+	color: #808080;
+	margin-top: 22px;
+}
+/*#########################################################*/
+
+
+
+
+/*############################################################*/
+footer{
+	padding:30px 0;
+	border-top: 3px solid #ededed;
+	background-color:rgba(0,0,0,0.05);	
+}
+
+/*##########################################################*/
